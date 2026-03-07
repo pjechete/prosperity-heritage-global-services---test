@@ -7,9 +7,9 @@ export default function Footer() {
         <div>
           <h3>Prosperity Heritage Advisory</h3>
           <p>
-            Helping leadership teams strengthen billing, collections, and
-            financial controls so revenue consistently converts into
-            predictable cash.
+            Prosperity Heritage Advisory helps leadership teams strengthen
+            billing, collections, and financial controls so revenue does not
+            just get recorded — it turns into predictable cash.
           </p>
         </div>
 
