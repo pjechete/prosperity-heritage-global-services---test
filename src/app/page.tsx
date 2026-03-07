@@ -8,29 +8,33 @@ export default function HomePage() {
       <Navbar />
 
       <section className="hero">
-        <div className="container hero-grid">
-          <div>
-            <div className="eyebrow">
-              Advisory for billing discipline, collections performance, and revenue control
-            </div>
+  <div className="hero-watermark"></div>
 
-            <h1>Revenue growth should lead to stronger cash performance — not more uncertainty.</h1>
+  <div className="container hero-content">
 
-            <p>
-              Prosperity Heritage Advisory helps companies fix the operational
-              gaps between contracts, billing, collections, and financial
-              controls so revenue converts into predictable cash with greater
-              consistency, visibility, and leadership confidence.
-            </p>
+    <h1>
+      Revenue growth should lead to stronger
+      cash performance — not more uncertainty.
+    </h1>
 
-            <div className="button-row">
-              <Link href="/contact" className="btn-primary">
-                Schedule a Consultation
-              </Link>
-              <Link href="/services" className="btn-secondary">
-                View Advisory Services
-              </Link>
-            </div>
+    <p>
+      Prosperity Heritage Advisory helps companies strengthen
+      billing discipline, collections performance, and revenue
+      control so revenue consistently converts into reliable cash.
+    </p>
+
+    <div className="button-row">
+      <Link href="/contact" className="btn-primary">
+        Schedule Consultation
+      </Link>
+
+      <Link href="/services" className="btn-secondary">
+        View Advisory Services
+      </Link>
+    </div>
+
+  </div>
+</section>
 
             <div className="hero-note">
               Ideal for growth-stage and operationally complex businesses that need stronger revenue discipline.
