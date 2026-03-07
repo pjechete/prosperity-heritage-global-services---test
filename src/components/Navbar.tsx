@@ -11,8 +11,9 @@ export default function Navbar() {
   return (
     <header className="navbar">
       <div className="navbar-inner">
-        <Link href="/" className="brand">
-          Prosperity Heritage Advisory
+        <Link href="/" className="brand-wrap">
+          <span className="brand">Prosperity Heritage Advisory</span>
+          <span className="brand-sub">Revenue Control & Cash Stabilization</span>
         </Link>
 
         <nav className="nav-links">
