@@ -1,0 +1,294 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #111827;
+  background: #ffffff;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.section {
+  padding: 80px 0;
+}
+
+.section-light {
+  background: #f9fafb;
+}
+
+.hero {
+  padding: 96px 0;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 52px;
+  line-height: 1.05;
+  margin: 0;
+  font-weight: 700;
+}
+
+.hero p {
+  max-width: 760px;
+  margin: 24px auto 0;
+  font-size: 18px;
+  line-height: 1.7;
+  color: #4b5563;
+}
+
+.button-row {
+  margin-top: 32px;
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.btn-primary {
+  display: inline-block;
+  background: #2563eb;
+  color: white;
+  padding: 14px 22px;
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+.btn-secondary {
+  display: inline-block;
+  border: 1px solid #d1d5db;
+  padding: 14px 22px;
+  border-radius: 10px;
+  font-weight: 600;
+  background: white;
+}
+
+.section-title {
+  font-size: 36px;
+  margin: 0;
+  text-align: center;
+}
+
+.section-subtitle {
+  max-width: 760px;
+  margin: 20px auto 0;
+  text-align: center;
+  color: #4b5563;
+  line-height: 1.7;
+  font-size: 18px;
+}
+
+.grid-2 {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+  margin-top: 40px;
+}
+
+.grid-3 {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
+  margin-top: 40px;
+}
+
+.grid-4 {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 24px;
+  margin-top: 40px;
+}
+
+.card {
+  background: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+  padding: 24px;
+}
+
+.card-gray {
+  background: #f9fafb;
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+  padding: 24px;
+}
+
+.card h3,
+.card-gray h3 {
+  margin: 0 0 12px 0;
+  font-size: 20px;
+}
+
+.card p,
+.card-gray p {
+  margin: 0;
+  color: #4b5563;
+  line-height: 1.7;
+}
+
+.navbar {
+  border-bottom: 1px solid #e5e7eb;
+  background: white;
+}
+
+.navbar-inner {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 18px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.brand {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.nav-links {
+  display: flex;
+  gap: 22px;
+  align-items: center;
+  color: #4b5563;
+  font-size: 15px;
+}
+
+.footer {
+  border-top: 1px solid #e5e7eb;
+  background: white;
+}
+
+.footer-inner {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 40px 24px;
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.footer p {
+  color: #4b5563;
+  max-width: 640px;
+  line-height: 1.7;
+}
+
+.footer-links {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  color: #4b5563;
+}
+
+.page-hero {
+  padding: 72px 0 24px;
+}
+
+.page-hero h1 {
+  font-size: 44px;
+  margin: 0;
+}
+
+.page-hero p {
+  margin-top: 20px;
+  max-width: 760px;
+  font-size: 18px;
+  color: #4b5563;
+  line-height: 1.7;
+}
+
+.content-stack {
+  display: grid;
+  gap: 24px;
+  padding-bottom: 80px;
+}
+
+.form-wrap {
+  background: #f9fafb;
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+  padding: 28px;
+  margin-top: 32px;
+}
+
+.form-field {
+  display: grid;
+  gap: 10px;
+  margin-bottom: 18px;
+}
+
+.form-field label {
+  font-weight: 600;
+}
+
+.form-field input,
+.form-field textarea {
+  width: 100%;
+  border: 1px solid #d1d5db;
+  border-radius: 10px;
+  padding: 14px 16px;
+  font: inherit;
+}
+
+.form-field textarea {
+  min-height: 140px;
+  resize: vertical;
+}
+
+.cta-band {
+  background: #2563eb;
+  color: white;
+  text-align: center;
+  padding: 88px 0;
+}
+
+.cta-band p {
+  max-width: 760px;
+  margin: 20px auto 0;
+  color: #dbeafe;
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+.center-note {
+  text-align: center;
+  margin-top: 28px;
+  font-weight: 600;
+}
+
+@media (max-width: 900px) {
+  .grid-4,
+  .grid-3,
+  .grid-2 {
+    grid-template-columns: 1fr;
+  }
+
+  .hero h1 {
+    font-size: 38px;
+  }
+
+  .page-hero h1 {
+    font-size: 34px;
+  }
+
+  .nav-links {
+    display: none;
+  }
+}
