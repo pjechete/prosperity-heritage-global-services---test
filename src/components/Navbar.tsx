@@ -1,32 +1,31 @@
-import Link from 'next/link'
-
-const navItems = [
-  { label: 'Home', href: '/' },
-  { label: 'Services', href: '/services' },
-  { label: 'About', href: '/about' },
-  { label: 'Contact', href: '/contact' },
-]
+import Link from "next/link"
+import Image from "next/image"
 
 export default function Navbar() {
   return (
     <header className="navbar">
       <div className="navbar-inner">
-        <Link href="/" className="brand-wrap">
-          <span className="brand">Prosperity Heritage Advisory</span>
-          <span className="brand-sub">Revenue Control & Cash Stabilization</span>
+
+        <Link href="/" className="brand">
+          <Image
+            src="/logo.png"
+            alt="Prosperity Heritage Advisory"
+            width={200}
+            height={60}
+            priority
+          />
         </Link>
 
         <nav className="nav-links">
-          {navItems.map((item) => (
-            <Link key={item.href} href={item.href}>
-              {item.label}
-            </Link>
-          ))}
+          <Link href="/services">Services</Link>
+          <Link href="/about">About</Link>
+          <Link href="/contact">Contact</Link>
         </nav>
 
         <Link href="/contact" className="btn-primary">
           Book Consultation
         </Link>
+
       </div>
     </header>
   )
