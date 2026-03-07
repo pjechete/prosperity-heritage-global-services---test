@@ -8,45 +8,56 @@ export default function ServicesPage() {
 
       <section className="page-hero">
         <div className="container">
-          <h1>Services</h1>
+          <h1>Advisory Services</h1>
           <p>
-            Prosperity Heritage Advisory helps companies strengthen the systems
-            that turn revenue into predictable cash.
+            Our services are designed for companies that need stronger revenue
+            discipline, better operational follow-through, and more consistent
+            cash conversion across billing, collections, and financial controls.
           </p>
         </div>
       </section>
 
       <section>
         <div className="container content-stack">
-          <div className="card-gray">
-            <h3>Revenue Control</h3>
+          <div className="card-highlight">
+            <h3>Revenue Control Review</h3>
             <p>
-              Review of revenue workflows, billing discipline, contract-to-invoice
-              handoffs, and revenue leakage risks.
+              We assess the workflows, handoffs, and control points that support
+              revenue quality — from contract execution through invoicing and follow-up.
             </p>
           </div>
 
           <div className="card-gray">
-            <h3>Billing & Collections Optimization</h3>
+            <h3>Billing Process Optimization</h3>
             <p>
-              Improvement of invoicing structure, payment terms, collection
-              follow-up, and aging reduction strategy.
+              We help improve invoice timing, accuracy, supporting documentation,
+              operational triggers, and ownership so billing becomes more reliable
+              and less dependent on manual recovery.
+            </p>
+          </div>
+
+          <div className="card-gray">
+            <h3>Collections Performance Improvement</h3>
+            <p>
+              We help create more structured follow-up, better aging visibility,
+              clearer accountability, and stronger collections discipline so payments
+              do not drift unnecessarily.
             </p>
           </div>
 
           <div className="card-gray">
             <h3>Revenue Operations Alignment</h3>
             <p>
-              Better connection between sales, operations, and finance to reduce
-              handoff errors and improve execution.
+              We examine the connection between sales, operations, and finance to
+              reduce breakdowns in handoffs that ultimately delay invoicing or weaken cash conversion.
             </p>
           </div>
 
           <div className="card-gray">
-            <h3>Financial Controls & Revenue Integrity</h3>
+            <h3>Financial Controls & Reporting Visibility</h3>
             <p>
-              Strengthening reporting, reconciliations, and controls that support
-              reliable revenue tracking and protection.
+              We strengthen reconciliations, reporting clarity, and operational
+              visibility so leadership can better understand where revenue is slowing before it becomes a bigger cash issue.
             </p>
           </div>
         </div>
